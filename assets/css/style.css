@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  margin: 20px;
+  text-align: center;
+}
+.pointer-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+#pointer {
+  height: 480px;
+  transition: transform 4000ms ease-in-out;
+}
+.btn-wrap {
+  text-align: center;
+}
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: #228b22;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #ccc;
+  cursor: pointer;
+}
